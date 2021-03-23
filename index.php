@@ -15,7 +15,7 @@
 <body>
 
 
-  <div class="row" style="padding:100px 200px;">
+  <div class="row" style="padding:100px 250px;">
     <div class="col-50">
       <div class="container">
         <form action="payscript.php" method="post" style="padding: 25px;">
