@@ -102,37 +102,36 @@ label {
   font-size: 17px;
 }
 
-.btn:hover {
+/*.btn:hover {
   background-color: #6b705c;
-}
+}*/
 
 .razorpay-payment-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
   top: 50%;
-  
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 4px;
-  background-color: #023047;
+  background-color: #011824;
   border: none;
   color: #ffffff;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   padding: 20px;
   width: 50%;
   transition: all 0.5s;
   cursor: pointer;
 }
 
-.razorpay-payment-button span {
+.btn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.razorpay-payment-button span:after {
+.btn span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -141,11 +140,11 @@ label {
   transition: 0.5s;
 }
 
-.razorpay-payment-button:hover span {
+.btn:hover span {
   padding-right: 25px;
 }
 
-.razorpay-payment-button:hover span:after {
+.btn:hover span:after {
   opacity: 1;
   right: 0;
 }
