@@ -1,6 +1,6 @@
 <?php
 
- $apiKey = "rzp_test_U6w6jCI1F3JfzC";
+ $apiKey = "rzp_live_DZxTnFCUzWkgzJ";
 
 ?>
 
