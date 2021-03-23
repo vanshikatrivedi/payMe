@@ -47,7 +47,7 @@
               <input type="hidden" value="<?php echo 1; ?>" name="amount">
               <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
               <input type="text" id="city" name="mobile" placeholder="Mobile Number">
-              <label for="amount"><i class="fa fa-rupee-sign"></i> Amount </label>
+              <label for="amount"><i class="fa fa-rupee-sign"></i> Amount (Required)</label>
               <input type="number" id="amount" name="amount" placeholder="Enter the amount in INR ie. ₹1/-">
 
 
